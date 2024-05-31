@@ -1,8 +1,17 @@
 name "incTwo"
 
-.model tiny     
+.model small  
+
+.data  
       
 .code
+increment proc near
+    inc ax
+    inc ax
+    inc bx
+    ret
+increment endp
+
 .startup     
     mov ax, 1000h
     mov ds, ax 
@@ -14,9 +23,8 @@ name "incTwo"
     
     incTwo:
     mov [bx], ax
-    inc ax
-    inc ax
-    inc bx
-    loop incTwo
+    call INCREMENT
+    loop incTwo 
+    
 .exit
 end
