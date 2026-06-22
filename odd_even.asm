@@ -1,4 +1,4 @@
-name "oddEven"
+name "odd_even"
 
 .model small
 

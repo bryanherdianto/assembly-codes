@@ -1,4 +1,4 @@
-name "flags"
+name "num_compare"
 
 org 100h 
 

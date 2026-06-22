@@ -1,5 +1,5 @@
 ; add name to emulator window
-name "addBin"
+name "add_bin"
 
 ; starting address from 100H or 256 in decimal
 org 100h

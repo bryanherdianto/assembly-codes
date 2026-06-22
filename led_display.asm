@@ -2,7 +2,7 @@
 
 #make_exe#      ; the format of the executable file when compiled
 
-name "led"
+name "led_display"
 
 mov ax, 1234    ; put value to ax register
 out 199, ax     ; output value of ax register to port 199

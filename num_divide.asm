@@ -1,4 +1,4 @@
-name "numDivide"
+name "num_divide"
 
 .model small
 
@@ -13,6 +13,7 @@ name "numDivide"
     ; Operasi pertama
     mov ax, [numerator]  
     mov dx, 0                
+    xor bh, bh
     mov bl, [denominator] 
     div bx                   
     mov [HASIL], ax      
@@ -21,6 +22,7 @@ name "numDivide"
     ; Operasi kedua
     mov ax, [numerator+2]  
     mov dx, 0                
+    xor bh, bh
     mov bl, [denominator+1] 
     div bx                   
     mov [HASIL+2], ax      
@@ -29,6 +31,7 @@ name "numDivide"
     ; Operasi ketiga
     mov ax, [numerator+4]  
     mov dx, 0                
+    xor bh, bh
     mov bl, [denominator+2] 
     div bx                   
     mov [HASIL+4], ax      

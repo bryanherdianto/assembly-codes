@@ -1,4 +1,4 @@
-name "doBits"
+name "do_bits"
 
 .model tiny
 

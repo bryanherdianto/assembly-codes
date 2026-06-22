@@ -1,5 +1,5 @@
 ; add name to emulator window
-name "helloW"
+name "hello_world"
 
 .model small                               
    

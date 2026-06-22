@@ -1,4 +1,4 @@
-name "twoDigit"
+name "print_two_digit"
 
 .model small
 .stack 100h
@@ -36,5 +36,8 @@ main:
     lea dx, buffer  ; Load address of buffer into DX
     mov ah, 9              ; DOS print string function
     int 21h                ; Call DOS interrupt
+
+    mov ax, 4c00h
+    int 21h
 
 end main

@@ -1,4 +1,4 @@
-name "incArray"
+name "inc_array"
 
 .model small
 .stack 100h
@@ -14,7 +14,7 @@ main:
     mov es, ax
 
     mov cx, 10            ; Set loop counter to 10 (for 10 elements in the array)
-    mov si, offset array  ; Initialize DI to point to the start of the array
+    mov di, offset array  ; Initialize DI to point to the start of the array
 
 store_loop:
     mov ax, value         ; Load the value to be stored into AX

@@ -1,4 +1,4 @@
-name "incTwo"
+name "inc_two"
 
 .model small  
 

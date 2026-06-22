@@ -1,4 +1,4 @@
-name "sumTwo"
+name "sum_two"
 
 .model small
 

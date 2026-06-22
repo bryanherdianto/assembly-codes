@@ -8,7 +8,7 @@
 .STARTUP           
     MOV CX, 10
     
-    MOV DI, OFFSET ARR
+    MOV SI, OFFSET ARR
     
     AGAIN:
     LODSB

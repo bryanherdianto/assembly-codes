@@ -1,4 +1,4 @@
-name "printABC"
+name "print_abc"
 
 .model small
 

@@ -1,4 +1,4 @@
-name "inputSum"
+name "input_sum"
 
 .model small
 
@@ -63,7 +63,7 @@ name "inputSum"
     add sum, al
     loop getSum
     
-    cmp sum, 10h   
+    cmp sum, 0ah   
     jl less
     jge greaterEqual
     

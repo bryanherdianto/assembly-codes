@@ -1,4 +1,4 @@
-name "numConvert"
+name "num_convert"
 
 .model small
 

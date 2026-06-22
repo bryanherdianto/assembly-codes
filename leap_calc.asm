@@ -1,4 +1,4 @@
-name "leapCalc"
+name "leap_calc"
 
 org 100h
 
@@ -18,6 +18,7 @@ org 100h
     int 21h 
     
     sub al, 30h
+    mov ah, 0
     mov bl, 4
     div bl 
     
